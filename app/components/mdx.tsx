@@ -3,7 +3,31 @@ import * as React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useMDXComponent } from "next-contentlayer/hooks";
-
+type VideoProps = React.VideoHTMLAttributes<HTMLVideoElement> & {
+	src: string; // Ensure 'src' is always required
+  };
+  
+  const Video = ({
+	src,
+	className,
+	controls = true,
+	autoPlay = false,
+	loop = false,
+	muted = false,
+	...props
+  }: VideoProps) => (
+	<video
+	  className={clsx("rounded-md border border-zinc-200", className)}
+	  controls={controls}
+	  autoPlay={autoPlay}
+	  loop={loop}
+	  muted={muted}
+	  {...props} // Spread additional props here
+	>
+	  <source src={src} type="video/mp4" />
+	  Your browser does not support the video tag.
+	</video>
+  );
 function clsx(...args: any) {
 	return args.filter(Boolean).join(" ");
 }
@@ -107,6 +131,7 @@ const components = {
 			{...props}
 		/>
 	),
+	video: Video,
 	hr: ({ ...props }) => (
 		<hr className="my-4 border-zinc-200 md:my-8" {...props} />
 	),
