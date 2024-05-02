@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "shrirampawar.com",
+    template: "%s | shrirampawar.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Developer, Designer, and Entrepreneur",
   openGraph: {
-    title: "chronark.com",
+    title: "shrirampawar.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Developer, Designer, and Entrepreneur",
+    url: "https://www.shrirampawar.com",
+    siteName: "shrirampawar.com",
     images: [
       {
         url: "https://chronark.com/og.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Shriram Pawar",
     card: "summary_large_image",
   },
   icons: {
