@@ -19,7 +19,14 @@ export default function Journey() {
       image: "30296e71-cf6a-4b5c-b4bc-7af3888d291d.jpg",
     },
     {
-      date: "2019",
+        date: "2018",
+        title: "Moving to Germany",
+        description:
+          "Moved to Germany to pursue a degree in Mechanical Engineering. Adapting to a new culture, meeting new people and settling into a new life.",
+        image: "Karlsruhe_asv2022-10_img07_Schloss_Karlsruhe.jpg",
+      },
+    {
+      date: "2021",
       title: "Joining my first startup",
       description:
         "Diving into an seed stage deep-tech startup, Daedalus, learning the ropes and building skills. Worked with some of the smartest people I know.",
