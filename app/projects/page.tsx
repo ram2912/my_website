@@ -32,7 +32,7 @@ export default function ProjectsPage() {
             Projects
           </h1>
           <p className="mt-4 text-white">
-            I have worked on a variety of projects, ranging from AI Agents to machine learning. Here are some of my recent projects.
+            These are some of the open source projects I have worked on during my time as a founder. Click on any of them to know more.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
